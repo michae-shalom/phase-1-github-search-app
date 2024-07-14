@@ -1,4 +1,4 @@
-#main {
+/* #main {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -10,4 +10,58 @@
 
 ul {
   list-style: none;
+} */
+
+#main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px; /* Adjust margin top as needed */
+}
+
+#github-container {
+  display: flex;
+  justify-content: center; /* Center items horizontally */
+  margin-top: 20px; /* Adjust margin top as needed */
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  margin: 5px 10px; /* Adjust margin between list items */
+}
+
+.avatar {
+  width: 50px; /* Adjust avatar image size */
+  height: 50px;
+  border-radius: 50%; /* Make avatar image circular */
+  margin-right: 10px; /* Adjust margin right as needed */
+}
+
+#repos-list {
+  margin-top: 20px; /* Adjust margin top as needed */
+}
+
+#repos-list li {
+  padding: 5px 10px;
+  background-color: #f0f0f0; /* Background color for repository list items */
+  border-radius: 5px;
+  margin-bottom: 5px; /* Adjust margin bottom as needed */
+}
+
+#repos-list li:hover {
+  background-color: #e0e0e0; /* Background color on hover */
+  cursor: pointer; /* Change cursor to pointer on hover */
+}
+
+#repos-list li a {
+  text-decoration: none; /* Remove underline from links */
+  color: #333; /* Link color */
+}
+
+#repos-list li a:hover {
+  text-decoration: underline; /* Underline links on hover */
 }
